@@ -148,6 +148,7 @@
         </dependency>
 
         <!-- For Slf4j -->
+        <dependency><groupId>org.slf4j</groupId><artifactId>slf4j-api</artifactId><version>${slf4j.version}</version></dependency>
 
         <!-- For Slf4j Simple -->
 
@@ -184,6 +185,7 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.google.api-client/google-api-client -->
+        <dependency><groupId>com.google.api-client</groupId><artifactId>google-api-client</artifactId><version>${google-api-client.version}</version></dependency>
 
         <!-- https://mvnrepository.com/artifact/com.google.http-client/google-http-client-jackson2 -->
         <dependency>
@@ -192,8 +194,10 @@
         </dependency>
 
         <!-- Source: https://github.com/easy-4-java/security-biz-spring-boot-starter — easy4j security-biz-spring-boot-starter -->
+        <dependency><groupId>io.github.easy4j</groupId><artifactId>security-biz-spring-boot-starter</artifactId><version>${spring-boot-starter-security-biz.version}</version></dependency>
 
         <!-- For OkHttp -->
+        <dependency><groupId>com.squareup.okhttp3</groupId><artifactId>okhttp</artifactId><version>${okhttp.version}</version></dependency>
 
     </dependencies>
 
