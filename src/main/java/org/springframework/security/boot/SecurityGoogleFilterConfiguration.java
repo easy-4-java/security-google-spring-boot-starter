@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.api.client.googleapis.auth.oauth2.GooglePublicKeysManager;
 import com.google.api.client.util.Clock;
 import org.springframework.beans.factory.ObjectProvider;
-import org.springframework.biz.web.servlet.i18n.LocaleContextFilter;
+import org.springframework.extension.web.servlet.i18n.LocaleContextFilter;
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
@@ -21,7 +21,7 @@ import org.springframework.security.boot.biz.authentication.nested.MatchedAuthen
 import org.springframework.security.boot.biz.authentication.nested.MatchedAuthenticationSuccessHandler;
 import org.springframework.security.boot.biz.property.SecuritySessionMgtProperties;
 import org.springframework.security.boot.google.authentication.GoogleAuthenticationProcessingFilter;
-import org.springframework.security.boot.utils.WebSecurityUtils;
+import org.springframework.security.boot.biz.utils.WebSecurityUtils;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
